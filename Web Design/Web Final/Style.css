@@ -1,0 +1,130 @@
+body{
+    /*white-space: pre;*/
+    font-family: cursive;
+    font-size: x-large;
+    margin: 0;
+    background-image: url(Image/Star.jpg);
+}
+
+#welcome h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}   
+
+@media (min-width: 1400px) {
+    /* xxl */
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /* xl */
+}
+    
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* lg */
+    #Music01{
+        width: 40%;
+    }
+}
+    
+@media (min-width: 768px) and (max-width: 991px) {
+    /* md */
+    #AboutMe01{
+        border-radius: 40px 40px 40px 40px;
+    }
+    #AboutMe02{
+        border-radius: 40px 40px 40px 40px;
+        margin-top: 1em;
+    }
+    #Monhun02, #Palworld02, #DBDL02, #Pokemon02{
+        margin-top: -1em;
+    }
+    #Music01{
+        width: 85%;
+    }
+}
+    
+@media (max-width: 767px) {
+    /* sm */
+    #AboutMe01 {
+        border-radius: 40px 40px 40px 40px;
+    }
+    #AboutMe02{
+        border-radius: 40px 40px 40px 40px;
+        margin-top: 2em;
+    }
+    #Monhun02, #Palworld02, #DBDL02, #Pokemon02{
+        margin-top: -1em;
+    }
+    .text-container>span{
+        font-size: 3rem !important;
+    }
+    #Music01{
+        width: 80%;
+    }
+    #Education{
+        margin-left: -1.5rem;
+    }
+}
+
+.rounded-left{
+    border-radius: 40px 0px 0px 40px;
+}
+.rounded-right{
+    border-radius: 0px 40px 40px 0px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#Profile{
+    box-shadow: 0 0 20px 15px #7f3db3;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#AboutMe01{
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    box-shadow: 0 0 20px 15px #7f3db3;    
+}
+
+#AboutMe02{
+    background-image: url(Image/BC.jpg);  
+    font-size: x-large;
+    font-weight: bolder;
+    box-shadow: 0 0 20px 15px #7f3db3;
+}
+
+#Rotom{
+    box-shadow: 0 0 20px 15px #7f3db3;
+    border-radius: 40px 40px 40px 40px;
+}
+
+#Monhun, #Palworld, #DBDL, #Pokemon{
+    background-color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bolder;
+    box-shadow: 0 0 20px 15px #7f3db3;
+}
+
+#Music01{
+    margin: 2em;
+    padding: 1em;
+    background-color: whitesmoke;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0 0 20px 15px #7f3db3;
+}
+
+#School01{
+    background-color: whitesmoke;
+    border-radius: 40px 40px 40px 40px;
+    margin: 2em;
+    padding: 1em;
+    box-shadow: 0 0 20px 15px #7f3db3;
+}
+
+#ContactMe{
+    font-size: medium;
+}
